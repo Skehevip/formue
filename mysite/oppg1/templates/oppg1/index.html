@@ -1,0 +1,19 @@
+
+<header>
+
+</header>
+<body>
+<div id="time_span"></div>
+<script>
+
+penger = 160000;
+timer();
+    
+    function timer(){
+
+    penger = penger+13000/30/24/60/60;
+    document.getElementById('time_span').innerHTML = "Eirik's formue: "+penger+"kr.";
+    setTimeout(timer,1000);
+}
+</script>
+</body>
